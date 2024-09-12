@@ -1,0 +1,93 @@
+table{
+    max-width: 200px;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    font-family: monospace;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption{
+    caption-side: bottom;
+}
+
+thead, tfoot{
+    font-size: larger;
+}
+
+th, td{
+    border: 1px solid #000000;
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+nav ul{
+    padding-left: 0px!important;
+    margin-top: 30px;
+}
+
+ul li ul{
+    position: relative;
+    top: 105px;
+}
+
+ul li ul li{
+    padding-left: 0px!important;
+    margin-top: 12px;
+    padding-inline: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+    
+}
+
+ul li ul li a{
+    padding-inline: 62px;
+}
+
+nav ul li{
+    padding-inline: 5px;
+}
+
+.sub-menu{
+    list-style: none;   
+    display: none;
+    position: absolute;
+    z-index: 1;
+    /* right: 525px */
+}
+
+li:hover .sub-menu {
+    display: block;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: #4F37A5;
+    color: #FAE100;
+    padding-inline: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li a:hover {
+    background-color: #FAE100;
+    color: #4F37A5;
+}
+
+header {
+    background-color: cornflowerblue;
+    background-image: url("../img/fundo-1.jpg");
+    height: 150px;
+    width: 100%;
+}
+
+.logo{
+    width: 100%;
+}
